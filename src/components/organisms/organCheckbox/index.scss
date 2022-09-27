@@ -1,0 +1,15 @@
+:root {
+    accent-color: #27AE60;
+}
+
+.checkbox-item {
+    top: 0%;
+    left: 0%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #27AE60;
+    background-position: center;
+    border-radius: 4px;
+    transition: 0.4s;
+}

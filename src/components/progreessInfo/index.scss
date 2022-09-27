@@ -1,0 +1,27 @@
+.info-progress {
+    width: 410px;
+    height: 4px;
+    display: flex;
+    background-color: #CCCFD1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 2px;
+}
+
+.info-progressbar {
+    height: 4px;
+    position: absolute;
+    background-color: #27AE60;
+    border-radius: 2px;
+    top: 0;
+    left: -9px;
+    z-index: 1;
+    transition: 0.4s ease;
+    -moz-transform: translate(9px, 0px);
+    -webkit-transform: translate(9px, 0px);
+    -o-transform: translate(9px, 0px);
+    -ms-transform: translate(9px, 0px);
+    transform: translate(9px, 0px);
+}
