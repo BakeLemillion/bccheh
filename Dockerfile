@@ -12,4 +12,4 @@ COPY . .
 # Expose port
 EXPOSE 8080
 # Start the app
-CMD ["yarn", "start"]
+CMD ["yarn", "build"]
