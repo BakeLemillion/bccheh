@@ -3,12 +3,12 @@ ENV NODE_ENV production
 # Add a work directory
 WORKDIR /app
 # Cache and Install dependencies
-COPY package.json .
-COPY yarn.lock .
+COPY package.json /app
+COPY yarn.lock /app
 RUN yarn install
 # Copy app files
 COPY . .
 # Expose port
 EXPOSE 8080
 # Start the app
-CMD [ "yarn", "serve" ]
+CMD [ 'yarn', 'run', 'start' ]
