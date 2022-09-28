@@ -17,8 +17,7 @@ const devConfig = merge(commonConfig, {
   devServer: {
     port: 8080,
     historyApiFallback: true,
-    compress: true,
-    disableHostCheck: true
+    allowedHosts: "all"
   },
   plugins: [new webpack.HotModuleReplacementPlugin()]
 });
